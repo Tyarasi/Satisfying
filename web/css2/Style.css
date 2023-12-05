@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2020, 2:36:43 PM
+    Author     : user
+*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: roboto;
+}
+body{
+    height: 100vh;
+    background-image: url('images2/BackgroundSatisfying.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px 50px;
+    width: 600px;
+
+    background-color: white;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #b0d0b0;
+    color:black;
+    font-size: 20px;
+}
+header,nav,article,footer {
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+
+}
+
+header {
+    height: 80px;
+    background-color: #69bf64;
+}
+nav {
+    height: 100px;
+    background-color: #b0d0b0;
+}
+article {
+    min-height: 650px;
+    background-color: #b1cba6;
+}
+footer {
+    height: 50px;
+    background-color: darkkhaki;
+}
+.thumbnail {
+    background-color: #b0d0b0;
+    text-align: center;
+    padding: 25px;
+    width: 255px;
+    margin: 68px;
+    float:left;
+}
+
+.thumbnail img {
+    width: 225px;
+    height: 150px;
+}
